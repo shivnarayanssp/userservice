@@ -7,13 +7,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 public class SpringSecurity {
-    @Bean
+    /*@Bean
     public SecurityFilterChain filteringCriteria(HttpSecurity httpSecurity)throws Exception{
         httpSecurity.cors().disable();
         httpSecurity.csrf().disable();
         httpSecurity.authorizeHttpRequests(auth -> auth.anyRequest().permitAll());
         return httpSecurity.build();
-    }
+    }*/
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder(){
         return new BCryptPasswordEncoder();

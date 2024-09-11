@@ -1,6 +1,5 @@
 package dev.shiv4u.userservice.services;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import dev.shiv4u.userservice.dtos.UserDto;
 import dev.shiv4u.userservice.models.Session;
 import dev.shiv4u.userservice.models.SessionStatus;
